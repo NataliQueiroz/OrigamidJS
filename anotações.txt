@@ -1,0 +1,41 @@
+ Variáveis
+ Resposáveis por guardar dados na memória.
+ Inicia com a palavra var, let ou const.
+ As variáveis servem para você evitar repetições. (DRY don't repear yourself).
+ Sintaxe
+ palavra chave var seguida do nome, sinal de igual e o valor.
+ ex: var nome = 'Lia'
+ Sem valor 
+ pode declarar ela e não atribuir valor inicialmente.
+ ex: var precoAplicativo;
+      retorna undefined.
+
+Nome 
+Os nomes podem iniciar com $, _ , ou letras.
+podem conter números, mas não iniciar com eles.
+Case sensitive
+nome é diferente de Nome
+não utilizar palavras reservadas
+Camel case.
+
+Declarar
+Erro ao tentar utilizar uma variável que não foi declarada.
+
+Hoisting
+São movidas para cima do código, porém o valor atribuído não é movido.
+ex: console.log(nome);
+var nome = 'André';
+retorna undefined.
+
+Mudar valor atribuído
+é possível mudar os valores atribuídos a variáveis declaradas com var e let. Porém não é possível modificar valores das declaradas como const.
+var idade = 28;
+idade = 29;
+
+let preco = 50;
+preco = 25;
+
+const possuiFaculdade = true;
+possuiFaculdade = false;
+// Retorna um erro
+
