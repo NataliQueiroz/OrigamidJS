@@ -1,22 +1,22 @@
-var nome = 'Noah';
-var sobrenome = 'Queiroz';
-var nomeCompleto = nome + ' ' + sobrenome;
-console.log( nomeCompleto );
+// Declare uma variável contendo uma string
+var umaString = "Olar casada";
+console.log(umaString);
+// Declare uma variável contendo um número dentro de uma string
+ var numeroemString = "28456";
+console.log(numeroemString);
+// Declare uma variável com a sua idade
+  var umaIdade = 30;
+console.log(umaIdade);
+// Declare duas variáveis, uma com seu nome
+// e outra com seu sobrenome e some as mesmas
+var meuNome = "Natali";
+var meuSobrenome = "Queiroz";
+var nomeCompleto = meuNome + " " + meuSobrenome;
+console.log(nomeCompleto);
+// Coloque a seguinte frase em uma variável: It's time
+var frase = "It's time";
+console.log(frase);
 
-
-//var gols = 1000;
-//var frase = 'Romário fez ' + gols + ' gols';
-//console.log(typeof frase)
-
-var ano = 2025;
-var mes = 10;
-console.log(ano + mes);
-
-var melhor = 'teste';
-var frase1 = 'amo programar ' + melhor;
-console.log(frase1);
-
-var gols = 1000;
-var frase2 = `Romário fez ${gols + 2} gols`;
-console.log(frase2);
-
+// Verifique o tipo da variável que contém o seu nome
+typeof (meuNome);
+console.log(typeof meuNome)
