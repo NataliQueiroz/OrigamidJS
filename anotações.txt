@@ -1,41 +1,33 @@
- Variáveis
- Resposáveis por guardar dados na memória.
- Inicia com a palavra var, let ou const.
- As variáveis servem para você evitar repetições. (DRY don't repear yourself).
- Sintaxe
- palavra chave var seguida do nome, sinal de igual e o valor.
- ex: var nome = 'Lia'
- Sem valor 
- pode declarar ela e não atribuir valor inicialmente.
- ex: var precoAplicativo;
-      retorna undefined.
+Tipos de dados
+todos são primitivos, exceto os objetos.
+var nome = 'André'; // String
+var idade = 28; // Number
+var possuiFaculdade = true; // Boolean
+var time; // Undefined
+var comida = null; // Null
+var simbolo = Symbol() // Symbol
+var novoObjeto = {} // Object
 
-Nome 
-Os nomes podem iniciar com $, _ , ou letras.
-podem conter números, mas não iniciar com eles.
-Case sensitive
-nome é diferente de Nome
-não utilizar palavras reservadas
-Camel case.
-
-Declarar
-Erro ao tentar utilizar uma variável que não foi declarada.
-
-Hoisting
-São movidas para cima do código, porém o valor atribuído não é movido.
-ex: console.log(nome);
+Verificar tipo de dado
 var nome = 'André';
-retorna undefined.
+console.log(typeof nome);
+// retorna string
+typeof null retorna object
 
-Mudar valor atribuído
-é possível mudar os valores atribuídos a variáveis declaradas com var e let. Porém não é possível modificar valores das declaradas como const.
-var idade = 28;
-idade = 29;
+String
+Você pode somar números com strings, o resultado final é sempre uma string.
+var gols = 1000;
+var frase = 'Romário fez ' + gols + ' gols';
 
-let preco = 50;
-preco = 25;
+Aspas Duplas, Simples e Template String
+'JavaScript é "super" fácil';
+"JavaScript é 'super' fácil";
+"JavaScript é \"super\" fácil";
+`JavaScript é "super" fácil"`;
+"JavaScript é "super" fácil"; // Inválido
+Copiar
+Não necessariamente precisamos atribuir valores a uma variável.
 
-const possuiFaculdade = true;
-possuiFaculdade = false;
-// Retorna um erro
+Template String
+você deve passar expressões / variáveis dentro de ${}
 

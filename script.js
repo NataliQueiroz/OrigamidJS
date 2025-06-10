@@ -1,26 +1,22 @@
-/* Exercício 1
-Declarar uma variável com seu nome 
-Declarar uma variável com sua idade 
-Declarar uma variável com sua comida preferida e não atribuir valor
-Atribuir valor a sua comida preferida
-Declarar 5 variáveis diferentes sem valores.
-*/
+var nome = 'Noah';
+var sobrenome = 'Queiroz';
+var nomeCompleto = nome + ' ' + sobrenome;
+console.log( nomeCompleto );
 
-var nome = 'Natali';
-console.log(nome)
 
-var idade = 30;
-console.log(idade)
+//var gols = 1000;
+//var frase = 'Romário fez ' + gols + ' gols';
+//console.log(typeof frase)
 
-var comidaPreferida 
-comidaPreferida = 'Sorvete'
-console.log(comidaPreferida)
+var ano = 2025;
+var mes = 10;
+console.log(ano + mes);
 
-var gatos 
-var vasilha
-var lesma
-var coração 
-var sibito // pode também ser separado por vírgula, sem a nessecidade de ficar colocando var em toda linha.
+var melhor = 'teste';
+var frase1 = 'amo programar ' + melhor;
+console.log(frase1);
 
-console.log(gatos, vasilha, lesma,coração,sibito)
+var gols = 1000;
+var frase2 = `Romário fez ${gols + 2} gols`;
+console.log(frase2);
 
