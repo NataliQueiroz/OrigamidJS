@@ -1,18 +1,25 @@
-var total1 = 10 + 5;
-var divisao = 200 / 5;
+// Qual o resultado da seguinte expressão?
+var total = 10 + 5 * 2 / 2 + 20;
+console.log(total);
+// resultado: 35
 
-console.log(divisao)
+// Crie duas expressões que retornem NaN
+var idadeNat = '30a';
+console.log(+idadeNat)
+var teste2 = '1teste';
+console.log(-teste2)
 
-var testeNaN = 'Isso é 100' / 2;
-console.log(testeNaN)
+// Somar a string '200' com o número 50 e retornar 250
+var number = '200'
+console.log(+number + 50 )
 
-var soma1 = 10 + 10 + 20 + 30 *4 /2 + 10 ;
-console.log(soma1);
+// Incremente o número 5 e retorne o seu valor incrementado
+var incremento = 5
+console.log(++incremento)
 
-var x = 5;
-x= x + 1;
-console.log(x);
+// Como dividir o peso por 2?
+var numero = +'80' / 2;
+var unidade = 'kg';
+var peso = numero + unidade; // '80kg'
 
-var idade = '28';
-var somaIdade = 5;
-console.log(+idade + somaIdade);
+console.log(peso)
