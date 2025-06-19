@@ -1,25 +1,22 @@
-// Qual o resultado da seguinte expressão?
-var total = 10 + 5 * 2 / 2 + 20;
-console.log(total);
-// resultado: 35
+var possuiGraduacao = false;
+var possuiDoutorado = true;
 
-// Crie duas expressões que retornem NaN
-var idadeNat = '30a';
-console.log(+idadeNat)
-var teste2 = '1teste';
-console.log(-teste2)
+if(possuiGraduacao){
+  console.log('é verdadeiro')
+} else if(possuiDoutorado){
+  console.log('Possui Doutorado')
+} else{
+  console.log('Não possui nada')
+};
 
-// Somar a string '200' com o número 50 e retornar 250
-var number = '200'
-console.log(+number + 50 )
+var nome;
 
-// Incremente o número 5 e retorne o seu valor incrementado
-var incremento = 5
-console.log(++incremento)
+if(nome){
+  console.log(nome);
+}else{
+  console.log('Nome não existe')
+};
 
-// Como dividir o peso por 2?
-var numero = +'80' / 2;
-var unidade = 'kg';
-var peso = numero + unidade; // '80kg'
+var x = 10;
 
-console.log(peso)
+console.log(x === 10)
