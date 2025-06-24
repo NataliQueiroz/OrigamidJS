@@ -1,53 +1,49 @@
-var possuiGraduacao = false;
-var possuiDoutorado = true;
-
-if(possuiGraduacao){
-  console.log('é verdadeiro')
-} else if(possuiDoutorado){
-  console.log('Possui Doutorado')
+// Verifique se a sua idade é maior do que a de algum parente
+// Dependendo do resultado coloque no console 'É maior', 'É igual' ou 'É menor'
+var idadeNat= 30;
+var idadeLouise = 31;
+if (idadeNat > idadeLouise){
+  console.log('É maior')
+} else if (idadeNat === idadeLouise){
+  console.log('É igual')
 } else{
-  console.log('Não possui nada')
+  console.log('É menor')
 };
 
-var nome;
+// Qual valor é retornado na seguinte expressão?
+var expressao = (5 - 2) && (5 - ' ') && (5 - 2);
 
-if(nome){
-  console.log(nome);
-}else{
-  console.log('Nome não existe')
+// Verifique se as seguintes variáveis são Truthy ou Falsy
+var nome = 'Andre';
+var idade = 28;
+var possuiDoutorado = false;
+var empregoFuturo;
+var dinheiroNaConta = 0;
+
+console.log(!!nome, !!idade, !!possuiDoutorado, !!empregoFuturo, !!dinheiroNaConta);
+
+// Compare o total de habitantes do Brasil com China (valor em milhões)
+var brasil = 207;
+var china = 1340;
+
+if (brasil > china) {
+  console.log('Brasil tem mais habitantes')
+} else {
+  console.log('Brasil tem menos habitantes')
 };
 
-var x = 10;
-
-console.log(x === 10)
-
-if ((5 -5 )&& (5+5)) {
-  console.log('verdadeiro') 
+// O que irá aparecer no console?
+if(('Gato' === 'gato') && (5 > 2)) {
+  console.log('Verdadeiro');
 } else {
-  console.log('Falso')
+  console.log('Falso');
 }
+//Resposta: Falso
 
-var condicional = (5-10)&& (5+5);
-if (condicional){
-  console.log('verdadeiro', condicional)
+// O que irá aparecer no console?
+if(('Gato' === 'gato') || (5 > 2)) {
+  console.log('Gato' && 'Cão');
 } else {
-  console.log('Falso')
+  console.log('Falso');
 }
-
-var condicional2 = (5-5) || (5+5) || (20-2);
-console.log(condicional2);
-
-var corFavorita = 'Azul';
-
-switch(corFavorita){
-  case 'Vermelho':
-  console.log('Garantido campeão');
-  break;
-  case 'Azul':
-  console.log('boi velho podi, nam');
-  break;
-  case 'campeão':
-    console.log('somente Garantido');
-  default:
-    console.log('33 vezes campeão, só tem um!')
-}
+//Resposta: Cão.
