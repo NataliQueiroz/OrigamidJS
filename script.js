@@ -20,3 +20,34 @@ if(nome){
 var x = 10;
 
 console.log(x === 10)
+
+if ((5 -5 )&& (5+5)) {
+  console.log('verdadeiro') 
+} else {
+  console.log('Falso')
+}
+
+var condicional = (5-10)&& (5+5);
+if (condicional){
+  console.log('verdadeiro', condicional)
+} else {
+  console.log('Falso')
+}
+
+var condicional2 = (5-5) || (5+5) || (20-2);
+console.log(condicional2);
+
+var corFavorita = 'Azul';
+
+switch(corFavorita){
+  case 'Vermelho':
+  console.log('Garantido campeão');
+  break;
+  case 'Azul':
+  console.log('boi velho podi, nam');
+  break;
+  case 'campeão':
+    console.log('somente Garantido');
+  default:
+    console.log('33 vezes campeão, só tem um!')
+}
