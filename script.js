@@ -1,16 +1,23 @@
-// nomeie 3 propriedades ou métodos de strings
-var comida = "Pipoquinha";
-//length;
-// fixed;
-// match;
+//var ultimoItem = videoGames.pop();
 
-// nomeie 5 propriedades ou métodos de elementos do DOM
-var btn = document.querySelector(".btn");
-// addEventListener
-// appendChild
-//id
-//innerText
-//outerHtml
+// for (var numero = 0; numero <= 4; numero++) {
+//   console.log(numero);
+// }
+// var i = 0;
+// while (i < 10) {
+//   console.log(i);
+//   i++;
+// }
 
-// busque na web um objeto (método) capaz de interagir com o clipboard,
-// clipboard é a parte do seu computador que lida com o CTRL + C e CTRL + V
+var videoGames = ["Switch", "PS4", "Xbox", "3DS"];
+
+for (var item = 0; item < videoGames.length; item++) {
+  console.log(videoGames[item]);
+  if (videoGames[item] === "PS4") {
+    break;
+  }
+}
+var frutas = ["banana", "pera", "maçã", "laranja", "côco"];
+frutas.forEach(function (frutas, index, array) {
+  console.log(frutas, index, array);
+});
