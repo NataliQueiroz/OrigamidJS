@@ -1,17 +1,14 @@
-var numero = 20;
+// Some 500 ao valor de scroll abaixo,
+// atribuindo o novo valor a scroll
+var scroll = 1000;
+var mais = 500;
+console.log((scroll += mais));
 
-numero += 10; // numero = numero + 10
-console.log(numero);
-
-var idade = 17;
-var podeBeber = idade >= 18 ? "Pode beber" : "Não pode beber";
-console.log(podeBeber);
-
-// if abreviado
-var possuiFaculdade = true;
-if (possuiFaculdade) console.log("Possui Faculdade");
-else console.log("Não possui faculdade.");
-// ou
-if (possuiFaculdade) console.log("Possui faculdade");
-// Pula linha depois do else
-else console.log("Não possui faculdade");
+// Atribua true para a variável darCredito,
+// caso o cliente possua carro e casa.
+// E false caso o contrário.
+var possuiCarro = false;
+var possuiCasa = true;
+var darCredito =
+  possuiCarro && possuiCasa ? "Liberar Crédito" : "Crédito Negado";
+console.log(darCredito);
