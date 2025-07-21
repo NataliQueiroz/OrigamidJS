@@ -1,23 +1,17 @@
-// Crie uma array com os anos que o Brasil ganhou a copa
-// 1959, 1962, 1970, 1994, 2002
-var brasilCampeao = ["1959", "1962", "1970", "1994", "2002"];
-console.log(brasilCampeao);
-// Interaja com a array utilizando um loop, para mostrar
-// no console a seguinte mensagem, `O brasil ganhou a copa de ${ano}`
-for (var i = 0; i < brasilCampeao.length; i++) {
-  var ano = `O brasil ganhou a copa de ${brasilCampeao[i]}`;
-  console.log(ano);
-}
-// Interaja com um loop nas frutas abaixo e pare ao chegar em Pera
-var frutas = ["Banana", "Maçã", "Pera", "Uva", "Melância"];
-for (var i = 0; i < frutas.length; i++) {
-  console.log(frutas[i]);
-  if (frutas[i] === "Pera") {
-    break;
-  }
-}
+var numero = 20;
 
-// Coloque a última fruta da array acima em uma variável,
-// sem remover a mesma da array.
-var fruta = frutas[frutas.length - 1];
-console.log(fruta);
+numero += 10; // numero = numero + 10
+console.log(numero);
+
+var idade = 17;
+var podeBeber = idade >= 18 ? "Pode beber" : "Não pode beber";
+console.log(podeBeber);
+
+// if abreviado
+var possuiFaculdade = true;
+if (possuiFaculdade) console.log("Possui Faculdade");
+else console.log("Não possui faculdade.");
+// ou
+if (possuiFaculdade) console.log("Possui faculdade");
+// Pula linha depois do else
+else console.log("Não possui faculdade");
