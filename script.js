@@ -1,38 +1,28 @@
-var carro = "Fusca";
-
-function mostrarCarro() {
-  var frase = `Meu carro é um ${carro}`;
-  console.log(frase);
-}
-
-mostrarCarro();
-console.log(carro);
-
-if (true) {
-  const mês = "Julho";
-  console.log(mês);
-}
-
-//console.log(mês);
-{
-  var carro2 = "Brasília";
-  const ano = 2025;
-}
-console.log(carro2);
-//console.log(ano);
-var i = 500;
-
-// for (let i = 0; i < 10; i++) {
-//   console.log(`Número ${i}`);
+// Por qual motivo o código abaixo retorna com erros?
+// {
+//   var cor = "preto";
+//   const marca = "Fiat";
+//   let portas = 4;
 // }
-console.log(i);
+//console.log(cor, marca, portas); // pq existem 3 variações de declarações de variáveis.
 
-const semana = "Sexta";
+// Como corrigir o erro abaixo?
+const dois = 2;
+function somarDois(x) {
+  return x + dois;
+}
+function dividirDois(x) {
+  return x + dois;
+}
+console.log(somarDois(4));
+console.log(dividirDois(6));
 
-console.log(semana);
+// O que fazer para total retornar 500?
+const numero = 50;
 
-const data = {
-  ano: 2018,
-  mes: "dezembro",
-};
-console.log((data.ano = 2019));
+for (let numero = 0; numero < 10; numero++) {
+  console.log(numero);
+}
+
+const total = 10 * numero;
+console.log(total);
